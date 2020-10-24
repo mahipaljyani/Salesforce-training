@@ -1,4 +1,5 @@
 public class ZomatoAPI {
+    // this class uses the zomato api for showing the restraurent data and lists
     @AuraEnabled
     public static Map<String,Object> getData(String RestId)
     {
