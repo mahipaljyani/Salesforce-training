@@ -1,4 +1,5 @@
 @RESTResource(urlMapping='/AccountManagement/')
+//this is a example for rest api in salesforce
 global class AccountManagemntAPI {
     @HTTPGet
     global static String getInfoByID(){
